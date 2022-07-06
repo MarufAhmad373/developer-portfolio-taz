@@ -9,12 +9,17 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+
+    font-size: 40px;
+}
+
 .taz {
 
     color: darkgreen;
 }
 
-section {
+.flexible-line {
 
     display: flex;
     margin-bottom: 90px;
@@ -22,6 +27,7 @@ section {
 
 .shape1 {
     padding: 5%;
+
     width: 50%;
 
 }
@@ -50,4 +56,32 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.secret-loves {
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.last-change {
+    border-radius: 70px;
+    box-shadow: 10px 10px 40px red;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+#special1 {
+
+    border-left: 7px solid red;
+}
+
+#special2 {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
